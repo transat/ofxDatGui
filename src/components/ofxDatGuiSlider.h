@@ -71,6 +71,11 @@ class ofxDatGuiSlider : public ofxDatGuiComponent {
             setWidth(theme->layout.width, theme->layout.labelWidth);
         }
     
+        void setSliderFillColor(ofColor color)
+        {
+            mSliderFill = color;
+        }
+    
         void setWidth(int width, float labelWidth)
         {
             ofxDatGuiComponent::setWidth(width, labelWidth);
