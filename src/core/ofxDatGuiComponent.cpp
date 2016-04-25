@@ -136,6 +136,10 @@ void ofxDatGuiComponent::setHeight(int height)
     mStyle.height = height;
 }
 
+void ofxDatGuiComponent::setIconSize(int size)
+{
+    mIcon.size = size;
+}
 
 void ofxDatGuiComponent::positionLabel()
 {

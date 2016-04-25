@@ -47,6 +47,8 @@ class ofxDatGuiComponent : public ofxDatGuiInteractiveObject
         void    setBackgroundColorOnMouseDown(ofColor color);
         void    setBackgroundColors(ofColor bkgd, ofColor mOver, ofColor mDown);
     
+        void    setIconSize(int);
+    
         void    setStripe(ofColor color, int width);
         void    setStripeWidth(int width);
         void    setStripeColor(ofColor color);
